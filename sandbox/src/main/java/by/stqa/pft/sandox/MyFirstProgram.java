@@ -1,3 +1,5 @@
+package by.stqa.pft.sandox;
+
 public class MyFirstProgram {
 
     public static void main(String[] args) {
