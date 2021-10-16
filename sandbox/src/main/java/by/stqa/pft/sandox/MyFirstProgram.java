@@ -15,14 +15,13 @@ public class MyFirstProgram {
         System.out.println("Площадь квадрата со стороной " + s.l + " = " + s.area());
 
 
-        Point p = new Point(4, 4);
-        Point p2 = new Point(16, 16);
+        Point p = new Point(2, 2);
+        Point p2 = new Point(9, 9);
         System.out.println("Расстояние между двумя точками " +  p.distance(p2));
 
     }
     public static void project(String somebody) {
           System.out.println("My new " + somebody + "!");
-
     }
     }
 
