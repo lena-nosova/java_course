@@ -15,8 +15,9 @@ public class MyFirstProgram {
         System.out.println("Площадь квадрата со стороной " + s.l + " = " + s.area());
 
 
-        Point p = new Point(6, 6);
-        System.out.println("Расстояние между двумя точками " +  p.distance(16, 16));
+        Point p = new Point(4, 4);
+        Point p2 = new Point(16, 16);
+        System.out.println("Расстояние между двумя точками " +  p.distance(p2));
 
     }
     public static void project(String somebody) {
